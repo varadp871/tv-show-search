@@ -41,7 +41,6 @@ const createData = (res) => {
       dataContainer.append(ulElement);
       for (i in showGenre) {
         const showGenreEle = document.createElement("li");
-        showGenreEle.classList.add("underline","decoration-pink-500")
         showGenreEle.textContent = showGenre[i];
         ulElement.append(showGenreEle);
       }
@@ -51,28 +50,3 @@ const createData = (res) => {
     }
   });
 };
-
-// const arr = [1,2,3,4,5]
-// console.log("My Array values below :")
-// arr.map((val)=>{
-//     console.log(val)
-// })
-
-// console.log("My Array values below for in loop :")
-
-// //for loop ( i=0;i<arr.length();i++) arr[i]
-// //for of loop => for(let i of arr) i
-// // for in loop => for(i in arr) arr[i]
-
-// for( i in arr){
-//     console.log(arr[i])
-// }
-// console.log("My Array values below for in loop :")
-
-// for(let i of arr){
-//     console.log(i)
-// }
-
-// //split, splice, filter
-
-// console.log("My Array split :")
