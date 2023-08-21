@@ -25,7 +25,6 @@ const createData = (res) => {
       const medium = result.show.image.medium;
       const showName = result.show.name;
       const showGenre = result.show.genres;
-      // console.log(result.show.name, ", ", result.show.genres)
       const dataContainer = document.createElement("div");
       ulElement = document.createElement("ul");
       dataContainer.setAttribute("class", "dataContainer");
